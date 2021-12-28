@@ -1,0 +1,25 @@
+.MainBox{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.MainBox > div {
+    margin: 5px;
+}
+
+.MainBox > div >div {
+    margin: 2px;
+}
+.box1 {
+    display: flex;
+}
+
+.div {
+    font-size: 20px;
+    margin: 30px;
+}
+.userName{
+    color: red;
+}
